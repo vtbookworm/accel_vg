@@ -16,6 +16,7 @@
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 	font-size: 16px;
+	margin-bottom: 0;
 }
 
 #masthead {
@@ -58,6 +59,62 @@
 
 .button {
     background: none repeat scroll 0 0 #45ac9d;
+}
+
+.featured-work {
+	
+}
+
+.featured-work h4 {
+	color: #3a3939;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16.5px;
+	font-weight: bold;
+	margin: 45px 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.homepage-featured-work {
+	list-style: none;
+	list-style-position: inside;
+	width: 100%;
+}
+
+.individual-featured-work {
+	float: left;
+	margin: 0 12px 20px 0;
+	padding-left: 0;
+	width: 32%;
+}
+
+.individual-featured-work h3 {
+	text-align: center;
+}
+
+.individual-featured-work h3 a{
+	color: #3b3b3b;
+	font-family: 'Open Sans';
+	font-size: 16.5px;
+	font-weight: 600;
+}
+
+.homepage-featured-work li {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+li.individual-featured-work {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.featured-work-image {
+
+}
+
+.featured-work-image img {
+	border: 1px solid #dfdede;
 }
 
 .blog-post {
