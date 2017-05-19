@@ -200,7 +200,7 @@ section.case-studies-images {
 }
 
 .case-studies-content a {
-	color: #2b2b2b;
+	color: #45ac9d;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16.5px;
 	font-weight: bold;
@@ -211,3 +211,36 @@ section.case-studies-images {
 	margin-bottom: 50px;
 	margin-right: 0;
 }
+
+/* Archive Case Studies Page */
+.archive-case-studies .case-studies-content h2 a {
+	color: #3b3b3b;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	Font-weight: 600;
+}
+
+.archive-case-studies h4 {
+	color: #878787;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.archive-case-studies p {
+	color: #3b3b3b;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16.5px;
+	font-weight: normal;
+}
+
+.archive-case-studies a {
+	color: #45ac9d;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.archive-case-studies .case-studies-content img {
+	border: 1px solid #dfdddd;
+}	
