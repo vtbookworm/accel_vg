@@ -61,6 +61,7 @@
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+/* Featured Work Section on front page */
 .featured-work {
 	
 }
@@ -78,6 +79,8 @@
 .homepage-featured-work {
 	list-style: none;
 	list-style-position: inside;
+	overflow: auto;
+	margin-left: 0;
 	width: 100%;
 }
 
@@ -87,9 +90,13 @@
 	padding-left: 0;
 	width: 32%;
 }
+.individual-featured-work:last-child {
+		margin-right: 0;
+}
 
 .individual-featured-work h3 {
 	text-align: center;
+	margin: 30px 30px;
 }
 
 .individual-featured-work h3 a{
@@ -97,16 +104,6 @@
 	font-family: 'Open Sans';
 	font-size: 16.5px;
 	font-weight: 600;
-}
-
-.homepage-featured-work li {
-	padding-left: 0;
-	margin-left: 0;
-}
-
-li.individual-featured-work {
-	padding-left: 0;
-	margin-left: 0;
 }
 
 .featured-work-image {
@@ -117,6 +114,7 @@ li.individual-featured-work {
 	border: 1px solid #dfdede;
 }
 
+/* Blog Entries */
 .blog-post {
 	width: 50%;
 }

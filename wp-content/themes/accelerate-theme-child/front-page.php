@@ -39,7 +39,7 @@ get_header(); ?>
 					?>
 					<li class="individual-featured-work">
 						<figure class="featured-work-image">
-							<?php echo wp_get_attachment_image($image1, $size); ?>
+							<a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image($image1, $size); ?></a>
 						</figure>
 						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 					</li>
