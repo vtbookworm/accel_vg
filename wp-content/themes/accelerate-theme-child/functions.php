@@ -43,3 +43,21 @@
  
  // Have WP add the custom post types
  add_action( 'init', 'create_custom_post_types' );
+ 
+ // Remove 'Accelerate' in the description - call in foorter.php ONLY
+ function teal_accelerate_footer() {
+	 add_filter( 'option_blogdescription', 'accelerate_change_description_footer', 10, 2 );
+	 
+	 function accelerate_change_description_footer($description) {
+		 $description = str_replace('Accelerate', '', $description);
+		 return $description;
+	 }
+ };
+
+// change excerpt symbol
+function custom_excerpt_more($more) {
+	return '...<div class="read-more read-more-custom"><a href="'. get_permalink() . '">Read more <span>&raquo;</span></a></div>';
+}
+add_filter('excerpt_more', 'custom_excerpt_more');
+ 
+ 
