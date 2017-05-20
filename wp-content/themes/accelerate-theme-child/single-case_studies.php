@@ -37,7 +37,7 @@ get_header(); ?>
 						
 						<p><?php the_content(); ?></p>
 
-						<a href="<?php echo $site_link; ?>">Visit Live Site</a>
+						<a href="<?php echo $site_link; ?>">Visit Live Site ></a>
 
 					</section>
 
