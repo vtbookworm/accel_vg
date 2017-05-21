@@ -20,7 +20,7 @@ get_header(); ?>
 					  $image1 = get_field('image_1');
 					  $size = "full";
 				?>
-				<article class="case-studies">
+				<article class="case-studies clearfix">
 				
 					<section class="case-studies-content">
 
@@ -30,7 +30,7 @@ get_header(); ?>
 
 						<p><?php the_excerpt(); ?></p>
 
-						<a href="<?php echo the_permalink(); ?>">View Project ></a>
+						<a class="view-project" href="<?php echo the_permalink(); ?>">View Project ></a>
 
 					</section>
 

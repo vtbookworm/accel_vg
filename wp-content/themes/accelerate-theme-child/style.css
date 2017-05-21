@@ -227,6 +227,16 @@ li.social-icon .icon-linkedin {
 	text-decoration: none;
 }
 
+.read-more-custom a:hover {
+	text-decoration: none;
+	border: none !important;
+}
+
+.post-entry .read-more:hover {
+	text-decoration: none;
+	border: none;
+}
+
 /* Single Case Studies Page */
 .case-studies {
 	margin-top: 65px;
@@ -283,6 +293,15 @@ section.case-studies-images {
 	font-weight: bold;
 }
 
+.case-studies .read-more-custom a {
+	color: #45ac9d;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: none;
+}
+
 .case-studies-images img {
 	border: 1px solid #d3d5d4;
 	margin-bottom: 50px;
@@ -311,7 +330,7 @@ section.case-studies-images {
 	font-weight: normal;
 }
 
-.archive-case-studies a {
+.views-project a {
 	color: #45ac9d;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
