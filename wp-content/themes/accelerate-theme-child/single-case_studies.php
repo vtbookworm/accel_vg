@@ -56,6 +56,9 @@ get_header(); ?>
 					</section>
 
 				</article>
+				<footer class="navigation container">
+					<div class="left">&larr;<a href="<?php echo home_url(); ?>/case-studies">back to work</a></div>
+				</footer>
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
@@ -63,4 +66,6 @@ get_header(); ?>
 
 	<!-- No sidebars in this theme -->
 <?php //get_sidebar(); ?>
+
+
 <?php get_footer(); ?>
