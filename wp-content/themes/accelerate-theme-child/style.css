@@ -162,19 +162,22 @@ li.social-icon a {
 li.social-icon i {
     border-radius: 50%;
     border: 2px solid #3a3a3a;
-    padding: 5px;
+    /* padding: 5px; */
+	padding: 2px;
     color: white;
     background-color: #3a3a3a;
-    font-size: 16px;
+    font-size: 20px;
 	line-height: 32px;
+	width: 23px;
+	height: 23px;
 }
-
+ 
 li.social-icon .icon-facebook {
-	padding: 5px 11px;
+	padding: 2px 8px;
 }
 
 li.social-icon .icon-linkedin {
-	padding: 5px 10px;
+	padding: 3px;
 }
 
 /* Blog Entries */
@@ -340,3 +343,64 @@ section.case-studies-images {
 .archive-case-studies .case-studies-content img {
 	border: 1px solid #dfdddd;
 }	
+
+/* Conatct Us Page */
+.contact  .site-content{
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 630px;
+}
+
+.contact .site-main h2 {
+	color: #2b2b2b;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.contact .site-main p {
+	color: #3b3b3b;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16.5px;
+	font-weight: normal;
+}
+
+/* 
+   #nf-field-1-container is the Name field.
+   #nf-field-2-container is the Email field.
+   #nf-field-3-container is the Message text area.
+   #submit-container is the submit button.
+*/   
+
+.contact #nf-field-1-container,
+.contact #nf-field-2-container {
+	width: 48%;
+	clear: none;
+}
+
+.contact #nf-field-1-container {
+	float: left;
+}
+
+.contact #nf-field-2-container {
+	float: right;
+}
+
+.contact .nf-field-label label {
+	color: #2b2b2b;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.contact #nf-field-4{
+	background-color: #45ac9d;
+	color: #ffffff;
+	float: right;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	width: 200px;
+	height: 51px;
+	
+}

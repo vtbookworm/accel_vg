@@ -59,5 +59,15 @@ function custom_excerpt_more($more) {
 	return '...<div class="read-more read-more-custom"><a href="'. get_permalink() . '">Read more <span>&raquo;</span></a></div>';
 }
 add_filter('excerpt_more', 'custom_excerpt_more');
+
+// Add specific class to Contact page 
+
+function accelerate_body_classes($classes) {
+	if (is_page('contact-us') ) {
+		$classes[] = 'contact';
+	}
+	return $classes;
+}
+add_filter( 'body_class','accelerate_body_classes' );
  
  
