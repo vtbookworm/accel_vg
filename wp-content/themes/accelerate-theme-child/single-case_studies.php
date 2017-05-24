@@ -56,8 +56,8 @@ get_header(); ?>
 					</section>
 
 				</article>
-				<footer class="navigation container">
-					<div class="left">&larr;<a href="<?php echo home_url(); ?>/case-studies">back to work</a></div>
+				<footer class="navigation container single-case-study">
+					<div class="left">&larr;<span><a href="<?php echo home_url(); ?>/case-studies">back to work</a></span></div>
 				</footer>
 			<?php endwhile; // end of the loop. ?>
 

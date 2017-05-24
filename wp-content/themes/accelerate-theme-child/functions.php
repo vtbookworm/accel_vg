@@ -61,13 +61,35 @@ function custom_excerpt_more($more) {
 add_filter('excerpt_more', 'custom_excerpt_more');
 
 // Add specific class to Contact page 
-
 function accelerate_body_classes($classes) {
 	if (is_page('contact-us') ) {
 		$classes[] = 'contact';
+	} elseif (is_page( 'blog' ) ) {
+		$classes[] = 'blog-archive';
 	}
 	return $classes;
 }
 add_filter( 'body_class','accelerate_body_classes' );
- 
+
+// Add Page x of y to the nav footer section, currently only on the blog page
+function current_paged( $var = '' ) { 	
+    if( empty( $var ) ) {
+        global $wp_query;
+        if( !isset( $wp_query->max_num_pages ) )
+            return;
+        $pages = $wp_query->max_num_pages;
+    }
+    else {
+        global $$var;
+            if( !is_a( $$var, 'WP_Query' ) )
+                return;
+        if( !isset( $$var->max_num_pages ) || !isset( $$var ) )
+            return;
+        $pages = absint( $$var->max_num_pages );
+    }
+    if( $pages < 1 )
+        return;
+    $page = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+    echo "Page " . $page . ' of ' . $pages;
+} 
  
