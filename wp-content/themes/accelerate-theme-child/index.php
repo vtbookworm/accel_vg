@@ -33,14 +33,19 @@ get_header(); ?>
 								</div>
 								<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 							</header>
-						<div class="entry-summary">
-								<?php the_excerpt(); ?>
-						</div>
+							<div class="entry-summary">
+									<?php the_excerpt(); ?>
+							</div>
 							<footer class="entry-footer">
 								<div class="entry-meta">
-									<span class="entry-terms author">Written by <?php the_author_posts_link(); ?></span>
-									<span class="entry-terms category">Posted in <?php the_category(', '); ?></span>
-									<span class="entry-terms comments"><?php comments_number( 'No comments yet!', '1 comment', '% comments' ); ?></span>
+									<span class="entry-terms comments author">
+										Written by <span class="blog-meta-custom"><?php the_author_posts_link(); ?></span>
+										<?php echo "&nbsp&nbsp/&nbsp$nbsp"; ?>
+										Posted in <?php the_category(', '); ?>
+										<?php echo "&nbsp&nbsp/&nbsp$nbsp"; ?>
+										<?php comments_popup_link('<span>No comments</span>', '1 comment', '% comments');?>
+										
+									</span>
 								</div>
 							</footer>
 						</div>
@@ -52,7 +57,7 @@ get_header(); ?>
 
 			<?php //get_sidebar(); ?>
 		
-				<div class="clearfix"></div>
+			<div class="clearfix"></div>
 					
 			<div id="navigation" class="navigation"> 
 				<div class="left"><?php next_posts_link('&larr; <span>Older Posts</span>'); ?></div>
