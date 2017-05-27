@@ -39,6 +39,18 @@
 			'rewrite' => array( 'slug' => 'case-studies' ),
 		)
 	 );
+	 // create a case studies post type
+	 register_post_type( 'services', 
+		array(
+			'labels' => array (
+				'name' => __( 'Services' ),
+				'singular_name' => __( 'service' )
+			),
+			'public' => true,
+			'has_archive' => true,
+			'rewrite' => array( 'slug' => 'services' ),
+		)
+	 );
  }
  
  // Have WP add the custom post types
@@ -66,7 +78,8 @@ function accelerate_body_classes($classes) {
 		$classes[] = 'contact';
 	} elseif (is_page( 'blog' ) ) {
 		$classes[] = 'blog-archive';
-	}
+	} elseif (is_page( 'about-us' ) ) {
+		$classes[] = 'about';	}
 	return $classes;
 }
 add_filter( 'body_class','accelerate_body_classes' );

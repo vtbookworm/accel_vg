@@ -12,6 +12,33 @@
 
 @import url("../accelerate-theme/style.css");
 
+/** Clearfix 
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+} **/
+
+.clearfix {
+	clear: both;
+}
+
+
 /* Homepage Styles */
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
@@ -150,7 +177,7 @@ footer.navigation.container.single-case-study .left a span {
 
 #colophon {
 	margin: -40px auto 40px auto;
-	border-top: 1px dotted #bfbfbf;
+	/* border-top: 1px dotted #bfbfbf; */
 }
 
 .site-footer .site-description p {
@@ -200,7 +227,7 @@ li.social-icon i {
 	padding: 2px;
     color: white;
     background-color: #3a3a3a;
-    font-size: 20px;
+    font-size: 16px;
 	line-height: 32px;
 	width: 23px;
 	height: 23px;
@@ -469,5 +496,148 @@ a.view-project {
 	font-weight: bold;
 	width: 200px;
 	height: 51px;
-	
+}
+
+.contact .navigation {
+	border-top: none;
+}
+
+/* About page */
+section.bkgd-image {
+	height: 360px;
+	padding-top: 1px;
+	background: url("img/taxi-photo.jpg") no-repeat scroll right bottom / cover rgba(0, 0, 0, 0);
+	width: 100%;
+}
+
+.about-text p {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	margin: 70px 150px;
+}
+
+.about-text p span {
+	color: #45ac9d;
+}
+
+.about-overview {
+	display: block;
+	margin: auto;
+	text-align: center;
+	width: 62%;
+}
+
+.about-overview h3 {
+	color: #3a3939;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.about-overview p {
+	color: #3a3939;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.about-contact-us {
+	display: block;
+	width: 75%;
+	margin: auto 14%;
+	text-align: left;
+}
+
+.about-contact-us h4 {
+	float: left;
+	margin: 15px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color #3a3939;
+}
+
+.about-contact-us-button {
+	width: 30%;
+	float: left;
+	margin-top: 5px;
+	margin-left: 40px;
+	padding: 15px 20px;
+	clear: none;
+}
+
+.about-contact-us-button a {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+}
+
+/* Services section of About page */
+div.svc {
+	margin: 10px 0;
+	clear: both;
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+
+.services-section {
+	margin: 0 50px;
+}
+
+.svc-area {
+	margin: auto;
+	width: 90%;
+}
+
+.services-text {
+	width: 65%;
+	margin: 10px 0;
+	float: left;
+	text-align: left;
+}
+
+.svc-title{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+	color: #3b3b3b;
+	margin-top: 10px;
+}
+
+.svc-text  {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #3b3b3b;
+	margin: 0;
+}
+
+.svc-image {
+	width: 216px;
+	margin: 2%;
+}
+
+.right-aligned {
+	float: right;
+	margin-left: 3%;
+}
+
+.left-aligned {
+	float: left;
+	margin-right: 3%;
+}
+
+.about-page {
+	border-bottom: 1px solid #e3e1e1;
+}
+
+#about-footer #custom-footer-height {
+	border-top: none !important;
 }
