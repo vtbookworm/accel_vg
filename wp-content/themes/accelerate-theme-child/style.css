@@ -51,7 +51,7 @@ html[xmlns] .clearfix {
 }
 
 #masthead nav {
-	padding-right: 35px;
+	/* padding-right: 35px; */
 	/* margin-top: -25px; */
 }
 
@@ -163,6 +163,12 @@ html[xmlns] .clearfix {
 	padding: 10px 0 0 0;
 }
 
+.about-contact-border {
+	padding-top: 30px;
+	border-top: 1px solid #bfbfbf;
+	height: 5px;
+}
+
 footer.navigation.container.single-case-study .left a{
 	color: #150300 !important;
 	font-family: 'Open Sans', sans-serif;
@@ -176,7 +182,7 @@ footer.navigation.container.single-case-study .left a span {
 
 
 #colophon {
-	margin: -40px auto 40px auto;
+	margin: 40px auto;
 	/* border-top: 1px dotted #bfbfbf; */
 }
 
@@ -185,7 +191,7 @@ footer.navigation.container.single-case-study .left a span {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	font-weight: normal;
-	margin-top: 0;
+	margin-top: 20px;
 }
 
 .site-footer .site-description p span {
@@ -529,6 +535,12 @@ section.bkgd-image {
 	width: 62%;
 }
 
+.about-overview-content p {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
 .about-overview h3 {
 	color: #3a3939;
 	text-transform: uppercase;
@@ -589,16 +601,17 @@ div.svc {
 
 .services-section {
 	margin: 0 50px;
+	border-bottom: 1px solid #e1e3e3;
 }
 
 .svc-area {
 	margin: auto;
-	width: 90%;
+	width: 85%;
 }
 
 .services-text {
-	width: 65%;
-	margin: 10px 0;
+	width: 60%;
+	margin: 10px 0 0 0;
 	float: left;
 	text-align: left;
 }
@@ -627,6 +640,7 @@ div.svc {
 .right-aligned {
 	float: right;
 	margin-left: 3%;
+	padding-right: 4%;
 }
 
 .left-aligned {
@@ -638,6 +652,13 @@ div.svc {
 	border-bottom: 1px solid #e3e1e1;
 }
 
-#about-footer #custom-footer-height {
+/* #about-footer #custom-footer-height {
 	border-top: none !important;
+} */
+
+.about-border-style {
+	border-top: 1px solid #e1e3e3;
+	width: 960px;
+	margin: 20px auto;
+	padding: 20px 0;
 }

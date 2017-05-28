@@ -29,7 +29,7 @@ get_header(); ?>
 		</div>
 	</div>
 </section>	
-<div class="about-page site-content">
+
 <section class="about-overview clearfix">
 	<div class="clearfix"></div>
 	<div class="about-overview site-content">
@@ -76,15 +76,20 @@ get_header(); ?>
 		</div><!-- about-services -->	
 	</div>
 </section>
-</div>
+
+<div class="about-border-style site-info">
 <section class="about-contact-us site-content clearfix">
+	
 	<div class="about-contact-us">	
 		<h4><?php echo $tag_line; ?></h4>
 		<h5 class="button about-contact-us-button">
 			<a href="<?php echo home_url(); ?>/contact"><?php echo $button_text; ?></a>
 		</h5>
 	</div>
-</section class="site-content">	
+	
+</section>
+</div>
+	
 					
 <!-- No sidebars in this theme -->
 <?php //get_sidebar(); ?>
