@@ -51,6 +51,18 @@
 			'rewrite' => array( 'slug' => 'services' ),
 		)
 	 );
+	 // create a 404 post type
+	 register_post_type( 'error_404', 
+		array(
+			'labels' => array (
+				'name' => __( 'Error 404' ),
+				'singular_name' => __( 'Error 404' )
+			),
+			'public' => true,
+			'has_archive' => true,
+			'rewrite' => array( 'slug' => 'error_404' ),
+		)
+	 );
  }
  
  // Have WP add the custom post types

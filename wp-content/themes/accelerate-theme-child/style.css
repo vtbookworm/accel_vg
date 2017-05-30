@@ -641,3 +641,71 @@ div.svc {
 #about-footer #custom-footer-height {
 	border-top: none !important;
 }
+
+/* 404 Error Page */
+.error-404 {
+	width: 75%;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+.error-title {
+	color: #45ac9d;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.error-404 figure {
+	margin: 0;
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+
+.error-404 a,
+.error-404 a:visited {
+	color: #45ac9d;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+.error-image-bottom img,
+.error-image-top img {
+	margin: 20px auto;
+	display: block;
+	float: none;
+} */
+
+.error-image-top p,
+.error-image-bottom p {
+	margin: 20px auto;
+	display: block;
+}
+
+.error-image-right img,
+.eror-image-left img {
+	float: left;
+}
+
+.error-image-right p,
+.error-image-left p {
+	width: 60%;
+	float: left;
+	margin: 15px auto;
+}
+
+.error-links {
+	margin: 20px auto;
+	clear: both;
+	list-style: none;
+	text-align: center;
+}
+
+.error-links ul {
+	list-style: none;
+}
