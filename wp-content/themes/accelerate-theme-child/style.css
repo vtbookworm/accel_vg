@@ -141,6 +141,12 @@ html[xmlns] .clearfix {
 	border: 1px solid #dfdede;
 }
 
+/* Twitter feed styles */
+.widget-area {
+	width: 45%;
+	float: right;
+}
+
 /* Footer Styles */
 .navigation  a{
 	color: #45ac9d;
@@ -211,7 +217,7 @@ footer.navigation.container.single-case-study .left a span {
 
 .social-media-menu {
 	overflow: auto;
-	/* height: 30px; */
+	margin-top: 20px;
 }
 
 li.social-icon {
@@ -254,9 +260,11 @@ li.social-icon .icon-linkedin {
 } */
 
 .blog-post {
-	width: 50%;
+	width: 45%;
+	float: left;
 }
 
+.PI_SimpleTwitterTweets h3,
 .blog-post h2 {
 	color: #3b3b3b;
 	font-family: 'Montserrat', sans-serif;
@@ -264,7 +272,12 @@ li.social-icon .icon-linkedin {
 	font-weight: bold;
 }
 
-.blog-post h4 {
+.PI_SimpleTwitterTweets {
+	font-size: 16px;
+	margin: 36px 0 12px;
+}
+
+.blog-post h4, .widget-area h4{
 	color: #a6a6a6;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
@@ -272,7 +285,29 @@ li.social-icon .icon-linkedin {
 	text-transform: uppercase;
 }
 
-.blog-post p {
+.PI_SimpleTwitterTweets {
+	padding-left: 0 !important;
+}
+
+.PI_SimpleTwitterTweets h3 {
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+
+.PI_SimpleTwitterTweets ul {
+	list-style: none;
+	margin-left: 0;
+}
+
+.PI_SimpleTwitterTweets li {
+	line-height: 1.75;
+}
+
+.stt-em {
+	display: none !important;
+}
+
+.blog-post p, .PI_SimpleTwitterTweets li {
 	color: #3b3b3b;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
@@ -281,10 +316,15 @@ li.social-icon .icon-linkedin {
 
 .blog-post .read-more-link {
 	color: #45ac9d;
+	background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 0.94em;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+div.read-more-custom {
+	padding-bottom: 60px;
 }
 
 .read-more a {
@@ -305,6 +345,18 @@ li.social-icon .icon-linkedin {
 .post-entry .read-more:hover {
 	text-decoration: none;
 	border: none;
+}
+
+a.twitter-follow-button,
+a#follow-button.btn {
+	color: #45ac9d !important;
+	background-color: #fff !important;
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 13px !important;
+	font-weight: 600 !important;
+	line-height: 2.25em !important;
+	text-transform: uppercase !important;
+	text-decoration: none !important;
 }
 
 /* Styling for meta-data for blog entry, where "No comments" shows up in paler color than "1 comment" would.  "No comments" is actually the text within the span. */
