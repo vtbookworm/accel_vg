@@ -88,11 +88,8 @@ html[xmlns] .clearfix {
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-/* Featured Work Section on front page */
-.featured-work {
-	
-}
-
+/* Featured Work Section and Services section on front page */
+.services h4,
 .featured-work h4 {
 	color: #3a3939;
 	font-family: 'Montserrat', sans-serif;
@@ -103,6 +100,7 @@ html[xmlns] .clearfix {
 	text-align: center;
 }
 
+.homepage-services,
 .homepage-featured-work {
 	list-style: none;
 	list-style-position: inside;
@@ -111,12 +109,15 @@ html[xmlns] .clearfix {
 	width: 100%;
 }
 
+.individual-servises,
 .individual-featured-work {
 	float: left;
 	margin: 0 12px 20px 0;
 	padding-left: 0;
 	width: 32%;
 }
+
+.individual-services:last-child,
 .individual-featured-work:last-child {
 		margin-right: 0;
 }
@@ -126,6 +127,7 @@ html[xmlns] .clearfix {
 	margin: 30px 30px;
 }
 
+.individual-services h3 a,
 .individual-featured-work h3 a{
 	color: #3b3b3b;
 	font-family: 'Open Sans';
@@ -133,12 +135,20 @@ html[xmlns] .clearfix {
 	font-weight: 600;
 }
 
-.featured-work-image {
-
-}
-
 .featured-work-image img {
 	border: 1px solid #dfdede;
+}
+
+/* Styles specific to Services section on front page */
+.individual-services {
+	width: 23%;
+	float: left;
+	margin-right: 25px;
+}
+
+.individual-services h3 {
+	text-align: center;
+	margin: 30px 7px;
 }
 
 /* Twitter feed styles */
@@ -610,14 +620,14 @@ section.bkgd-image {
 
 .about-contact-us {
 	display: block;
-	width: 75%;
-	margin: auto 14%;
+	width: 85%;
+	margin: auto;
 	text-align: left;
 }
 
 .about-contact-us h4 {
 	float: left;
-	margin: 15px 0;
+	margin: 15px 0 15px 25px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 25px;
 	font-weight: bold;

@@ -28,7 +28,7 @@ get_header(); ?>
 <section class="featured-work">
 	<div class="site-content">
 		<h4>Featured Work</h4>
-		<!-- Consider using divs instead of an unordered list, to remove unwanted left margin space -->
+		
 		<ul class="homepage-featured-work">
 			
 			<?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
@@ -42,6 +42,30 @@ get_header(); ?>
 							<a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image($image1, $size); ?></a>
 						</figure>
 						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+					</li>
+				<?php endwhile; ?>
+			<?php wp_reset_query(); ?>
+		</ul>
+	</div>
+</section>
+
+<section class="services">
+	<div class="site-content">
+		<h4>Our Services</h4>
+		
+		<ul class="homepage-services">
+			
+			<?php query_posts('posts_per_page=4&post_type=services&order=ASC'); ?>
+				<?php while( have_posts() ) : the_post(); ?>
+					<?php
+						$image1 = get_field('graphic');
+						$size = "medium";
+					?>
+					<li class="individual-services">
+						<figure class="services-image">
+							<a href="<?php echo home_url(); ?>/about"><?php echo wp_get_attachment_image($image1, $size); ?></a>
+						</figure>
+						<h3><a href="<?php echo home_url(); ?>/about"><?php the_title(); ?></a></h3>
 					</li>
 				<?php endwhile; ?>
 			<?php wp_reset_query(); ?>
