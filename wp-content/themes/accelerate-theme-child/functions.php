@@ -68,7 +68,7 @@
  // Have WP add the custom post types
  add_action( 'init', 'create_custom_post_types' );
  
- // Remove 'Accelerate' in the description - call in foorter.php ONLY
+ // Remove 'Accelerate' in the description - call in footer.php ONLY
  function teal_accelerate_footer() {
 	 add_filter( 'option_blogdescription', 'accelerate_change_description_footer', 10, 2 );
 	 

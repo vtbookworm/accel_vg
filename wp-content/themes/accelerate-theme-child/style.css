@@ -650,8 +650,6 @@ section.bkgd-image {
 	font-weight: bold;
 }
 
-}
-
 /* Services section of About page */
 div.svc {
 	margin: 10px 0;
@@ -719,7 +717,6 @@ div.svc {
 	width: 960px;
 	margin: 20px auto;
 	padding: 20px 0;
-=======
 }
 
 /* 404 Error Page */
@@ -759,7 +756,7 @@ div.svc {
 	margin: 20px auto;
 	display: block;
 	float: none;
-} */
+}
 
 .error-image-top p,
 .error-image-bottom p {
@@ -788,5 +785,35 @@ div.svc {
 
 .error-links ul {
 	list-style: none;
->>>>>>> 404-page
+	margin-left: 0;
 }
+
+/* Mailchimp Newsletter Signup Styles */
+.widget_mc4wp_form_widget .widget-title {
+	color: #3b3b3b;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.47em;
+	font-weight: bold;
+	line-height: 1.4;
+	letter-spacing: -0.034em;
+	margin-bottom: 20px;
+}
+
+div.mc4wp-form-fields p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+div.mc4wp-form-fields input[type="submit"] {
+	background-color: #45ac9d;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	width: 100%;
+	display: block;
+	text-transform: uppercase;
+	margin-top: 30px;
+	border: none;
+}
+

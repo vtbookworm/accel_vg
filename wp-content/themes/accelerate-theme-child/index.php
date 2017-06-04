@@ -55,7 +55,7 @@ get_header(); ?>
 			<?php endwhile; endif; ?>
 			</div>
 
-			<?php //get_sidebar(); ?>
+			<?php get_sidebar(); ?>
 		
 			<div class="clearfix"></div>
 					

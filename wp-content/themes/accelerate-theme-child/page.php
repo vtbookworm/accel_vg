@@ -25,7 +25,15 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 	<!-- No sidebars in this theme -->
-<?php //get_sidebar(); ?>
+	<?php //get_sidebar(); ?>
+	
+	<!-- Custom sidebar for blog page -->
+	<?php //if ( is_active_sidebar( 'sidebar-3' ) ) : ?>
+		<!-- <div id="secondary" class="widget-area" role="complementary"> -->
+			<?php //dynamic_sidebar( 'sidebar-3' ); ?>
+		<!-- </div> -->
+	<?php //endif; ?>
+
 
 <div class="clearfix"></div>
 <!-- Added to display Page x of y in bottom nav bar -->					
