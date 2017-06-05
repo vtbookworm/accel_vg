@@ -594,7 +594,7 @@ section.bkgd-image {
 	display: block;
 	margin: auto;
 	text-align: center;
-	width: 62%;
+	width: 57%;
 }
 
 .about-overview-content p {
@@ -654,7 +654,6 @@ section.bkgd-image {
 div.svc {
 	margin: 10px 0;
 	clear: both;
-	width: 80%;
 	margin: auto;
 	display: block;
 }
@@ -666,7 +665,6 @@ div.svc {
 
 .svc-area {
 	margin: auto;
-	width: 85%;
 }
 
 .services-text {
@@ -700,7 +698,7 @@ div.svc {
 .right-aligned {
 	float: right;
 	margin-left: 3%;
-	padding-right: 4%;
+	padding-right: 10%;
 }
 
 .left-aligned {
