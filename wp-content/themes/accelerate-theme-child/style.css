@@ -789,6 +789,11 @@ div.svc {
 }
 
 /* Mailchimp Newsletter Signup Styles */
+section.blog-page .sidebar {
+	width: 30%;
+	border-left: none;
+}
+
 .widget_mc4wp_form_widget .widget-title {
 	color: #3b3b3b;
 	font-family: 'Montserrat', sans-serif;
@@ -817,3 +822,6 @@ div.mc4wp-form-fields input[type="submit"] {
 	border: none;
 }
 
+section.blog-page .main-content {
+	border-right: 1px solid #bfbfbf;
+}
