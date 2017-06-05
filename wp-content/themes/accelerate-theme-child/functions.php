@@ -90,7 +90,7 @@ function accelerate_body_classes($classes) {
 		$classes[] = 'contact';
 	} elseif (is_page( 'blog' ) ) {
 		$classes[] = 'blog-archive';
-	} elseif (is_page( 'about-us' ) ) {
+	} elseif (is_page( 'about' ) ) {
 		$classes[] = 'about';	}
 	return $classes;
 }

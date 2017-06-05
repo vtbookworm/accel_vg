@@ -820,6 +820,7 @@ div.mc4wp-form-fields input[type="submit"] {
 	border: none;
 }
 
-section.blog-page .main-content {
+/* section.blog-page .main-content { */
+.blog .main-content {
 	border-right: 1px solid #bfbfbf;
 }
