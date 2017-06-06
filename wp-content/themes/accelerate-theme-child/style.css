@@ -792,6 +792,10 @@ section.blog-page .sidebar {
 	border-left: none;
 }
 
+.widget_mc4wp_form_widget {
+	border: 1px solid #bfbfbf;
+}
+
 .widget_mc4wp_form_widget .widget-title {
 	color: #3b3b3b;
 	font-family: 'Montserrat', sans-serif;
@@ -822,5 +826,5 @@ div.mc4wp-form-fields input[type="submit"] {
 
 /* section.blog-page .main-content { */
 .blog .main-content {
-	border-right: 1px solid #bfbfbf;
+/*	border-right: 1px solid #bfbfbf; */
 }

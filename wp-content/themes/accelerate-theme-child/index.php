@@ -59,10 +59,13 @@ get_header(); ?>
 		
 			<div class="clearfix"></div>
 					
+				<!-- Added to display Page x of y in bottom nav bar -->					
 			<div id="navigation" class="navigation"> 
 				<div class="left"><?php next_posts_link('&larr; <span>Older Posts</span>'); ?></div>
+				<div class="center"><?php current_paged(); ?></div>
 				<div class="right"><?php previous_posts_link('<span>Newer Posts</span> &rarr;'); ?></div>
 			</div>
+
 
 						
 		</div>
