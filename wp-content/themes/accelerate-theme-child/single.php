@@ -52,7 +52,7 @@ get_header(); ?>
 			<?php //get_sidebar(); ?>
 
 			<footer class="navigation container">
-				<div class="left">&larr;<a href="<?php echo home_url(); ?>/blog">back to posts</a></div>
+				<div class="left">&larr;<a href="<?php echo home_url(); ?>/blog"><span>back to posts</span></a></div>
 			</footer>
 	 
 				<?php endwhile; ?>

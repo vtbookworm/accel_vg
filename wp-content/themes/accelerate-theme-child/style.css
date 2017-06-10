@@ -169,6 +169,14 @@ html[xmlns] .clearfix {
 	color: #150300;
 }
 
+.blog-page .navigation a {
+	color: #45ac9d;
+}
+
+.blog-page .navigation a span{
+	color: #150300;
+}
+
 .navigation a:hover {
 	text-decoration: none;
 }
@@ -452,7 +460,7 @@ section.case-studies-images {
 }
 
 .case-studies-content a {
-	color: #45ac9d;
+	color: #150300;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16.5px;
 	font-weight: bold;
@@ -510,10 +518,9 @@ a.view-project {
 }	
 
 /* Conatct Us Page */
-.contact  .site-content{
-	margin-left: 25%;
-	margin-right: 25%;
-	width: 630px;
+.contact div#content {
+	margin: 0 auto;
+	width: 66%;
 }
 
 .contact .site-main h2 {
@@ -597,7 +604,7 @@ section.bkgd-image {
 	display: block;
 	margin: auto;
 	text-align: center;
-	width: 57%;
+	width: 66%;
 }
 
 .about-overview-content p {

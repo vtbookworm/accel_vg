@@ -92,7 +92,7 @@ get_header(); ?>
 					$stt_options = get_option( 'widget_pi_simpletwittertweets' );
 					$twitter_handle = $stt_options[2]['name'];
 				?>
-				<a href="https://twitter.com/<?php echo "$twitter_handle" ?>" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow Us &raquo;</a>
+				<a href="https://twitter.com/intent/follow?screen_name=<?php echo "$twitter_handle" ?>" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow Us &raquo;</a>
 				
 			</div>
 		<?php endif; ?>

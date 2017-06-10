@@ -20,7 +20,8 @@ get_header(); ?>
 	
 			<?php while ( have_posts() ) : the_post(); 
 				$image = get_field('image');
-				$image_location = get_field('image_location');
+				/* $image_location = get_field('image_location'); */
+				$image_location = "Left";
 				$link1_label = get_field('link_1_label');
 				$link1_url = get_field('link_1_url');
 				$link2_label = get_field('link_2_label');
@@ -28,6 +29,7 @@ get_header(); ?>
 				$link3_label = get_field('link_3_label');
 				$link3_url = get_field('link_3_url'); 
 			?>
+				
 				<section class="error-404">
 					<h2 class="error-title"><?php the_title(); ?></h2>
 					<?php if ($image_location == 'Top') { ?>
