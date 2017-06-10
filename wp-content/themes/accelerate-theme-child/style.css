@@ -458,13 +458,16 @@ section.case-studies-images {
 	font-weight: bold;
 }
 
+.case-studies .read-more-custom {
+	padding-bottom: 0;
+}
+
 .case-studies .read-more-custom a {
 	color: #45ac9d;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
 	font-weight: bold;
 	text-transform: uppercase;
-	display: none;
 }
 
 .case-studies-images img {
@@ -824,7 +827,3 @@ div.mc4wp-form-fields input[type="submit"] {
 	border: none;
 }
 
-/* section.blog-page .main-content { */
-.blog .main-content {
-/*	border-right: 1px solid #bfbfbf; */
-}
