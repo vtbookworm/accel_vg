@@ -133,4 +133,11 @@ function accelerate_theme_child_widget_init() {
 	
 }
 add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
+
+// Change the text of the "Leave a Reply" message for comments
+function wpdocs_comment_form_defaults( $defaults ) {
+  $defaults['title_reply'] = __( 'Add a Comment' );
+  return $defaults;
+}
+add_filter( 'comment_form_defaults', 'wpdocs_comment_form_defaults' );
  
