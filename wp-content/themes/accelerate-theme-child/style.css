@@ -670,7 +670,6 @@ div.svc {
 
 .services-section {
 	margin: 0 50px;
-	border-bottom: 1px solid #e1e3e3;
 }
 
 .svc-area {
@@ -721,7 +720,7 @@ div.svc {
 }
 
 .about-border-style {
-	border-top: 1px solid #e1e3e3;
+	border-top: 1px solid #e3e1e1;
 	width: 960px;
 	margin: 20px auto;
 	padding: 20px 0;
